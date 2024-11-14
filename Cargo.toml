@@ -1,0 +1,17 @@
+[package]
+name = "solana-key-tool"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-sdk = "1.18.18"
+aes = "0.8.2"
+base64 = "0.13.0"
+rand = "0.8.5"
+generic-array = "0.14.6"
+rpassword = "6.0"
+serde = { version = "1.0", features = ["derive"] } # 序列化和反序列化
+serde_json = "1.0"              # JSON 处理库
+hex = "0.4"  # 添加这一行来引入 hex 库
